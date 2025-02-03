@@ -34,9 +34,11 @@
 <body>
 
     <nav>
-        <a href="/">Strona główna</a>
-        <a href="/category_list">Kategorie</a>
-        <a href="/new_category">Nowa kategoria</a>
+        <a href="{% url 'home' %}">Strona Główna</a>
+        <a href="{% url 'category_list' %}">Kategorie</a>
+        <a href="{% url 'item_list' %}">Produkty</a>
+        <a href="{% url 'add_item' %}">Dodaj produkt</a>
+        <a href="{% url 'add_category' %}">Dodaj kategorię</a>
     </nav>
 
     <div class="container">

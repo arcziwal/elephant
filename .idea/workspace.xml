@@ -4,15 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="59093b43-0a46-4f07-ba92-07759d46dae5" name="Changes" comment="project init">
-      <change afterPath="$PROJECT_DIR$/elephant/elephant_app/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/elephant/elephant_app/templates/HelloWorld.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/elephant/elephant_app/templates/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/elephant/elephant_app/templates/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/elephant/elephant_app/templates/new_category.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/elephant/elephant_app/templates/new_item.html" afterDir="false" />
+    <list default="true" id="59093b43-0a46-4f07-ba92-07759d46dae5" name="Changes" comment="new category/new product forms">
+      <change afterPath="$PROJECT_DIR$/elephant/elephant_app/templates/category_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elephant/elephant_app/templates/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elephant/elephant_app/templates/item_list.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/elephant/elephant_app/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/elephant/elephant_app/forms.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/elephant/elephant_app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/elephant/elephant_app/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/elephant/elephant_app/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/elephant/elephant_app/templates/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/elephant/elephant_app/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/elephant/elephant_app/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/elephant/elephant_app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/elephant/elephant_app/views.py" afterDir="false" />
     </list>
@@ -86,7 +85,23 @@
       <option name="project" value="LOCAL" />
       <updated>1738438711798</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="new category/new product forms">
+      <option name="closed" value="true" />
+      <created>1738496830509</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1738496830509</updated>
+    </task>
+    <task id="LOCAL-00003" summary="new category/new product forms">
+      <option name="closed" value="true" />
+      <created>1738496956140</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1738496956140</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -102,6 +117,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="project init" />
-    <option name="LAST_COMMIT_MESSAGE" value="project init" />
+    <MESSAGE value="new category/new product forms" />
+    <option name="LAST_COMMIT_MESSAGE" value="new category/new product forms" />
   </component>
 </project>

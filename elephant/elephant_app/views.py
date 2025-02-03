@@ -1,6 +1,7 @@
 from django.http import HttpResponse
 from django.shortcuts import render, redirect
 from .forms import CategoryForm, ItemForm
+from .models import Category, Item
 
 def hello_world(request):
     return render(request, 'HelloWorld.html')
@@ -26,3 +27,14 @@ def add_item(request):
         form = ItemForm()
 
     return render(request, 'new_item.html', {'form': form})
+
+def list_items(request):
+    items = Item.objects.all()
+    return render(request, 'item_list.html', {'items': items})
+
+def list_categories(request):
+    categories = Category.objects.all()
+    return render(request, 'category_list.html', {'categories': categories})
+
+def home_page(request):
+    return render(request, 'home.html')

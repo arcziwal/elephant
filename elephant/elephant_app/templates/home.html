@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block title %}Strona Główna{% endblock %}
+
+{% block content %}
+    <h2>Witamy w naszym sklepie</h2>
+    <p>Wybierz jedną opcję: </p>
+    <ul>
+        <li><a href="{% url 'category_list' %}">Kategorie</a></li>
+        <li><a href="{% url 'item_list' %}">Produkty</a></li>
+        <li><a href="{% url 'add_item' %}">Dodaj produkt</a></li>
+        <li><a href="{% url 'add_category' %}">Dodaj kategorie</a></li>
+    </ul>
+{% endblock %}

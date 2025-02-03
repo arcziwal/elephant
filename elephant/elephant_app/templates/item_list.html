@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+{% block title %}Produkty{% endblock %}
+
+{% block content %}
+    <h2>Lista produktów:</h2>
+    <ul>
+        {% for item in items %}
+            <li>
+              <strong>{{ item.name }}</strong> - {{ item.price }} zł <br>
+                <em>Kategoria:</em> {{ item.category.name }} <br>
+                <em>Opis:</em> {{ item.description }} <br>
+                <em>Dostępne:</em> {{ item.stock }} szt.
+            </li>
+            <hr>
+        {% empty %}
+            <p>Brak dostępnych produktów</p>
+        {% endfor %}
+    </ul>
+{% endblock %}
